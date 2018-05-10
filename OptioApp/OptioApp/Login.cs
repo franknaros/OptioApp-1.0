@@ -97,6 +97,7 @@ namespace OptioApp
            TopMost = false;
            WindowState = FormWindowState.Normal;
            Close();
+           of.refreshForm();
 
         }
     }

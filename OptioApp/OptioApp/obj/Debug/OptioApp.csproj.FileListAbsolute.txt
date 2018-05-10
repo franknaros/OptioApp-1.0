@@ -36,3 +36,17 @@ C:\Users\franknaros\Downloads\OptioApp-26-04\OptioApp\OptioApp\obj\Debug\OptioAp
 C:\Users\franknaros\Downloads\OptioApp-26-04\OptioApp\OptioApp\obj\Debug\OptioApp.csproj.CoreCompileInputs.cache
 C:\Users\franknaros\Downloads\OptioApp-26-04\OptioApp\OptioApp\obj\Debug\OptioApp.exe
 C:\Users\franknaros\Downloads\OptioApp-26-04\OptioApp\OptioApp\obj\Debug\OptioApp.pdb
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\bin\Debug\OptioDB.mdf
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\bin\Debug\OptioDB_log.ldf
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\bin\Debug\OptioApp.exe.config
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\bin\Debug\OptioApp.exe
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\bin\Debug\OptioApp.pdb
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\obj\Debug\OptioApp.csprojResolveAssemblyReference.cache
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\obj\Debug\OptioApp.Admin.resources
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\obj\Debug\OptioApp.Login.resources
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\obj\Debug\OptioApp.OptioForm.resources
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\obj\Debug\OptioApp.Properties.Resources.resources
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\obj\Debug\OptioApp.csproj.GenerateResource.cache
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\obj\Debug\OptioApp.csproj.CoreCompileInputs.cache
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\obj\Debug\OptioApp.exe
+C:\Users\franknaros\Desktop\OptioApp 1.0\OptioApp\OptioApp\obj\Debug\OptioApp.pdb

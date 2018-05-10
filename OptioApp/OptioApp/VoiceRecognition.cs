@@ -4,6 +4,7 @@ using System.Speech.Recognition;
 using System.Data.SqlClient;
 using System.Speech.Synthesis;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace OptioApp
 {
@@ -25,7 +26,7 @@ namespace OptioApp
             Admin admin = new Admin(of);
 
 
-             if (speech1 == "Hello" || speech1 == "Open admin" || speech1 == "Close admin" && e.Result.Confidence > 0.90)
+             if (speech1 == "Hello" && e.Result.Confidence > 0.92 || speech1 == "Open admin" && e.Result.Confidence > 0.92 || speech1 == "Close admin" && e.Result.Confidence > 0.92)
             {
 
             switch (speech1)
@@ -79,13 +80,15 @@ namespace OptioApp
                         of.optio.SpeakAsync("opening Admin");
                         of.productLabel.Text = "";
                         of.mainLabel.Text = "";
+                        Task.Delay(5000);
 
                         if (Application.OpenForms.OfType<Login>().Count() == 1)
                             Application.OpenForms.OfType<Login>().First().Close();
 
-                            login.Show();
-                            login.TopMost = true;
-                            Cursor.Show();
+                       
+                        login.Show();
+                        login.TopMost = true;
+                        Cursor.Show();
                         volumeCheck();
                         break;
                        
@@ -101,6 +104,7 @@ namespace OptioApp
                         break;
                 }
             }
+           
        }
 
         private void Optio_SpeakCompleted(object sender, SpeakCompletedEventArgs e)
@@ -151,8 +155,8 @@ namespace OptioApp
         public void engine_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
         {
             string speech = e.Result.Text;
-
-            if (e.Result.Confidence > 0.85)
+           
+            if (e.Result.Confidence > 0.87)
             { 
 
             int i = 0;
@@ -192,7 +196,8 @@ namespace OptioApp
                 i += 1;
                 of.optio.SpeakAsync("Please check the " + speech + "command on line " + i + ". It appears to be missing a proper prInfo or web key words " + ex.Message);
              }
-          }
+            }
+           
 
         }
     }
