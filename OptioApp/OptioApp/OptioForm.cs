@@ -157,9 +157,11 @@ namespace OptioApp
             //Admin admin = new Admin(this);
 
             Form login = Application.OpenForms["Login"];
+            Form admin = Application.OpenForms["Admin"];
+
             //Form admin = Application.OpenForms["Admin"];
 
-            if (current == null && login == null ) 
+            if (current == null && login == null && admin == null) 
             {
                 refreshForm();
                
